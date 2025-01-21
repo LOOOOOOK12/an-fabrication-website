@@ -1,5 +1,6 @@
 "use client"
 
+import Link from 'next/link'
 import { motion } from 'motion/react'
 import React from 'react'
 
@@ -12,9 +13,10 @@ function nav() {
             className='w-full fixed top-0 z-50 bg-slate-500 shadow-md bg-opacity-75 backdrop-blur'
         >
             <nav className='w-full flex items-center justify-between p-5'>
-                <h1>A&N</h1>
+                <a href='#Home'>A&N</a>
                 <div>
-                    <a href="#Hero">Home</a>
+                    <Link href={`/`}>Home</Link>
+                    <Link href={`/gallery`}>Gallery</Link>
                 </div>
             </nav>
         </motion.header>
