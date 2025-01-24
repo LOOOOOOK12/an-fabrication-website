@@ -8,10 +8,10 @@ function Icon({ icon: Icon }: { icon: React.FC<LucideProps> }) {
 
 function offersCard({icon, title, description}:offersCardProps) {
     return (
-        <div className='flex flex-col items-center p-8 bg-white rounded-lg max-w-[300px]'>
+        <div className='flex flex-col items-center p-8 bg-white rounded-lg max-w-[300px] shadow-md'>
             <Icon icon={icon}/>
             <h1 className='text-3xl font-bold mb-4'>{title}</h1>
-            <p className='text-gray-400'>{description}</p>
+            <p className='text-text-400'>{description}</p>
         </div>
     )
 }
