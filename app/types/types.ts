@@ -9,6 +9,11 @@ export type offersCardProps = {
     description: string
 }
 
+export type servicesCardProps = {
+    icon: React.FC<LucideProps>,
+    title: string,
+    href?: string,
+}
 
 export type carouselProps = {
     image: StaticImageData,
@@ -23,12 +28,16 @@ export interface CarouselContainerProps {
 export const navLinks = [
     {
         name:'Home',
-        href:'/'
+        href:'#home'
     },
     {
-        name:'Gallery',
-        href:'/gallery'
-    }
+        name:'About',
+        href:'#about'
+    },
+    {
+        name:'Services',
+        href:'#services'
+    },
 ]
 
 export const offersData = [
@@ -57,5 +66,41 @@ export const AboutCarouselData: carouselProps[] = [
     {
         image: Welding1,
         alt: "Welding Picture 2"
+    },
+]
+
+export const ServicesCardData: servicesCardProps[] = [
+    {
+        icon: Wrench,
+        title: "Custom Fabrication"
+    },
+    {
+        icon: Settings,
+        title: "Welding & Repairs"
+    },
+    {
+        icon: ShoppingBasket,
+        title: "Bulk Orders"
+    },
+    {
+        icon: Wrench,
+        title: "Custom Fabrication"
+    },
+    {
+        icon: Settings,
+        title: "Welding & Repairs"
+    },
+    {
+        icon: ShoppingBasket,
+        title: "Bulk Orders"
+    }
+    ,
+    {
+        icon: Wrench,
+        title: "Custom Fabrication"
+    },
+    {
+        icon: Settings,
+        title: "Welding & Repairs"
     },
 ]
