@@ -12,10 +12,10 @@ function nav() {
             className='w-full fixed flex items-center justify-center top-2 z-50 bg-opacity-75'
         >
             <nav className='w-[800px] bg-primary-700 flex items-center justify-between text-text-50 p-5 shadow-lg'>
-                <a className='cursor-default text-xl font-semibold'>A&N</a>
+                <a className='cursor-default text-3xl font-semibold'>A&N</a>
                 <div className='flex gap-2'>
                     {navLinks.map((link,idx) => 
-                        <a key={idx} href={link.href}>{link.name}</a>
+                        <a className='text-xl hover:text-secondary-400' key={idx} href={link.href}>{link.name}</a>
                     )}
                 </div>
             </nav>
