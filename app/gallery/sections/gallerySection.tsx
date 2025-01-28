@@ -2,7 +2,7 @@ import React from 'react'
 
 function gallerySection() {
     return (
-        <section className='h-full w-full flex flex-col gap-6 items-center justify-center p-6' id='Home'>
+        <section className='h-full w-full flex flex-col gap-6 items-center justify-center p-6' id='home'>
             <div className='h-full w-full'>
                 <h1 className='text-3xl'>Wood works</h1>
                 <div className='grid grid-cols-2 md:grid-cols-5 grid-rows-2 gap-2'>
