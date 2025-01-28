@@ -24,8 +24,17 @@ export interface CarouselContainerProps {
     items: carouselProps[];
 }
 
+export type navLinksProps = {
+    name: string,
+    href: string
+}
+
+export type navLinks = {
+    links: navLinksProps[];
+}
+
 // Datas
-export const navLinks = [
+export const navLinksHome = [
     {
         name:'Home',
         href:'#home'
@@ -35,8 +44,27 @@ export const navLinks = [
         href:'#about'
     },
     {
+        name:'Offers',
+        href:'#offers'
+    },
+    {
         name:'Services',
         href:'#services'
+    },
+    {
+        name:'Location',
+        href: '#location'
+    }
+]
+
+export const navLinksGallery = [
+    {
+        name:'Gallery',
+        href:'#gallery'
+    },
+    {
+        name:'Gallery',
+        href:'#gallery'
     },
 ]
 
@@ -104,3 +132,7 @@ export const ServicesCardData: servicesCardProps[] = [
         title: "Welding & Repairs"
     },
 ]
+
+export const footerData = {
+    
+}
