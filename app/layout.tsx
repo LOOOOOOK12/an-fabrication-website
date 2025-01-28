@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Lato, Roboto } from "next/font/google";
-import Nav from "./components/nav";
 import Footer from "./components/footer";
 import "./globals.css";
 
@@ -29,7 +28,6 @@ export default function RootLayout({
       <body
         className={`${roboto.className} ${lato.className} antialiased`}
       >
-        <Nav/>
         <main>
           {children}
         </main>
