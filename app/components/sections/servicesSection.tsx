@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 function servicesSection() {
     return (
-        <section className='h-screen bg-primary-50 flex flex-col items-center justify-center gap-6 p-5' id='services'>
+        <section className='py-8 px-4 bg-primary-50 flex flex-col items-center justify-center gap-6' id='services'>
             <h1 className='text-5xl font-bold'>Services</h1>
             <div className='flex flex-wrap items-center justify-center gap-4'>
                 {ServicesCardData.map((card, idx) => 
@@ -17,7 +17,7 @@ function servicesSection() {
                     />
                 )}                
             </div>
-            <Link href={"/gallery"}><Button>Gallery</Button></Link>
+            <Link href={"/gallery"}><Button>View Gallery</Button></Link>
         </section>
     )
 }
