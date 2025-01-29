@@ -4,7 +4,7 @@ import { offersData } from '@/app/types/types'
 
 function offersSection() {
     return (
-        <section className='py-4 flex flex-col gap-5 items-center justify-center bg-secondary-300' id='offers'>
+        <section className='py-8 px-4 flex flex-col gap-5 items-center justify-center bg-secondary-300' id='offers'>
             <h1 className='text-6xl font-bold'>We Offer</h1>
             <div className='flex flex-col md:flex-row gap-5'>
                 {offersData.map((offer,idx) =>
