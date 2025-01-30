@@ -1,4 +1,4 @@
-import { Wrench, Settings, ShoppingBasket, LucideProps } from "lucide-react"
+import { Wrench, Settings, ShoppingBasket, LucideProps, Facebook } from "lucide-react"
 import Welding1 from "@/public/weldingPictures/welding1.jpg"
 import { StaticImageData } from "next/image"
 
@@ -20,6 +20,11 @@ export type carouselProps = {
     alt: string
 }
 
+// export type footerPropsSocials = {
+//     socialsIcons: React.FC<LucideProps>,
+//     href: string
+// }
+
 export interface CarouselContainerProps {
     items: carouselProps[];
 }
@@ -40,7 +45,7 @@ export const navLinksHome = [
         href:'#home'
     },
     {
-        name:'About',
+        name:'About Us',
         href:'#about'
     },
     {
@@ -52,8 +57,8 @@ export const navLinksHome = [
         href:'#services'
     },
     {
-        name:'Location',
-        href: '#location'
+        name:'Contact Us',
+        href: '#contactus'
     }
 ]
 
@@ -133,6 +138,9 @@ export const ServicesCardData: servicesCardProps[] = [
     },
 ]
 
-export const footerData = {
-    
-}
+export const footerDataSocials = [
+    {
+        socialsIcons: Facebook,
+        href:"https://www.facebook.com/ANwoodandmetalFabrication"
+    }
+]
