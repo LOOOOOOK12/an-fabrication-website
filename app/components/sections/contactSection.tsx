@@ -4,7 +4,7 @@ import React from 'react'
 
 function contactSection() {
     return (
-        <div className='h-screen flex items-center justify-center bg-primary-300' id='contact'>
+        <div className='py-8 px-4 flex items-center justify-center bg-primary-300' id='contactus'>
             <div>
 
             </div>
