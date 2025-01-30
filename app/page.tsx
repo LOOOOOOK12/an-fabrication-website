@@ -2,8 +2,9 @@ import HeroSection from "./components/sections/heroSection";
 import AboutSection from "./components/sections/aboutSection"
 import OffersSection from "./components/sections/offersSection";
 import ServicesSection from "./components/sections/servicesSection";
-import LocationSection from "./components/sections/locationSection";
+import ContactSection from "./components/sections/contactSection";
 import Nav from "./components/nav"
+import Footer from "./components/footer";
 import { navLinksHome } from "./types/types";
 
 export default function Home() {
@@ -16,7 +17,10 @@ export default function Home() {
       <AboutSection/>
       <OffersSection/>
       <ServicesSection/>
-      <LocationSection/>
+      <ContactSection/>
+      <Footer
+        links={navLinksHome}
+      />
     </>
   );
 }
