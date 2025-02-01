@@ -1,5 +1,7 @@
 import { Wrench, Settings, ShoppingBasket, LucideProps, Facebook } from "lucide-react"
-import Welding1 from "@/public/weldingPictures/welding1.jpg"
+import Cabinet from "@/public/carousel/cabinet.jpg"
+import Metal from "@/public/carousel/metal.jpg"
+import Painting from "@/public/carousel/painting.jpg"
 import { StaticImageData } from "next/image"
 
 // Types
@@ -93,12 +95,16 @@ export const offersData = [
 
 export const AboutCarouselData: carouselProps[] = [
     {
-        image: Welding1,
-        alt: "Welding Picture 1"
+        image: Cabinet,
+        alt: "Cabinet"
     },
     {
-        image: Welding1,
-        alt: "Welding Picture 2"
+        image: Painting,
+        alt: "Painting"
+    },
+    {
+        image: Metal,
+        alt: "Metal"
     },
 ]
 
