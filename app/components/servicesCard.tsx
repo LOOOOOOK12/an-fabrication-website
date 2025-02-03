@@ -5,7 +5,7 @@ import { Icon } from './offersCard'
 function servicesCard({icon, title}:servicesCardProps) {
     return (
         <div className='flex items-center justify-center gap-4 p-4 shadow-lg rounded-lg bg-background'>
-            <Icon icon={icon}/>
+            <Icon icon={icon} size={45}/>
             <h1 className='text-text-400'>{title}</h1>
         </div>
     )
