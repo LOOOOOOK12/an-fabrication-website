@@ -114,6 +114,10 @@ export const ServicesCardData: servicesCardProps[] = [
         title: "Custom Fabrication"
     },
     {
+        icon: Wrench,
+        title: "Custom Fabrication"
+    },
+    {
         icon: Settings,
         title: "Welding & Repairs"
     },
