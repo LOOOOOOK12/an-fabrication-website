@@ -1,8 +1,8 @@
 import React from 'react'
 import GallerySection from '@/app/gallery/sections/gallerySection' 
-import TestSection from '@/app/gallery/sections/testSection'
+import ContactSection from '../components/sections/contactSection'
 import Nav from '../components/nav'
-import { navLinksGallery } from '../types/types'
+import { navLinksGallery } from '../types/constants'
 import Footer from '../components/footer'
 
 function page() {
@@ -12,7 +12,7 @@ function page() {
                 links={navLinksGallery}
             />
             <GallerySection/>
-            <TestSection/>
+            <ContactSection/>
             <Footer
                 links={navLinksGallery}
             />
