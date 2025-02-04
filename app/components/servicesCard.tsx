@@ -1,13 +1,16 @@
 import React from 'react'
 import { servicesCardProps } from '../types/types'
-import { Icon } from './offersCard'
+import Image from 'next/image'
+import Link from 'next/link'
 
-function servicesCard({icon, title}:servicesCardProps) {
+function servicesCard({title, image, alt, href}:servicesCardProps) {
     return (
-        <div className='flex items-center justify-center gap-4 p-4 shadow-lg rounded-lg bg-background'>
-            <Icon icon={icon} size={45}/>
-            <h1 className='text-text-400'>{title}</h1>
-        </div>
+        <Link href={href} className='relative shadow-lg rounded-lg w-full h-full'>
+            <Image src={image} alt={alt} className='w-full h-full object-cover rounded-lg brightness-50 hover:brightness-75 duration-100'/>
+            <div className="absolute bottom-2 right-2 w-full text-darkMode-colors-text text-2xl text-right font-bold">
+                <h1 className='text-text-50'>{title}</h1>
+            </div>
+        </Link>
     )
 }
 
