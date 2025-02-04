@@ -5,7 +5,7 @@ import ServicesSection from "./components/sections/servicesSection";
 import ContactSection from "./components/sections/contactSection";
 import Nav from "./components/nav"
 import Footer from "./components/footer";
-import { navLinksHome } from "./types/types";
+import { navLinksHome } from "./types/constants";
 
 export default function Home() {
   return (
