@@ -1,6 +1,6 @@
 import React from 'react'
 import OffersCard from '../offersCard'
-import { offersData } from '@/app/types/types'
+import { offersData } from '@/app/types/constants'
 
 function offersSection() {
     return (
