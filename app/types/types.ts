@@ -33,3 +33,6 @@ export type navLinks = {
     links: navLinksProps[];
 }
 
+export type Tshape = {
+    className: string
+}
