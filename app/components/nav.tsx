@@ -22,13 +22,13 @@ function Nav({ links }: navLinks) {
             transition={{ duration: .5, type:"spring", delay: .5 }}
             className='w-full fixed px-2 flex items-center justify-center top-2 z-50 bg-opacity-75'
         >
-            <nav className='w-[850px] bg-primary-600 flex items-center justify-between text-text-50 p-4 shadow-lg'>
+            <nav className='w-full md:w-[850px] bg-primary-700 flex items-center justify-between text-text-50 p-3 shadow-lg'>
                 <Link className='cursor-default text-3xl font-semibold size-10' href={"/"}>
                     <Image src={Logo} alt="Logo" className='h-full w-full rounded-full'/>
                 </Link>
                 <div className='hidden md:flex gap-3'>
                     {links.map((link, idx) => 
-                        <a className='text-xl font-semibold hover:text-secondary-400 hover:duration-100' key={idx} href={link.href}>{link.name}</a>
+                        <a className='font-semibold hover:text-accent-200 hover:duration-100' key={idx} href={link.href}>{link.name}</a>
                     )}
                 </div>
                 <button className='md:hidden' onClick={toggleMenu}>
