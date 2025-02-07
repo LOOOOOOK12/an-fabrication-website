@@ -3,7 +3,7 @@
 import React from 'react'
 import { AboutCarouselData } from '../../types/constants'
 import Image from 'next/image'
-import Shape from '../shape'
+// import Shape from '../shape'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade } from 'swiper/modules'
 import 'swiper/css';
