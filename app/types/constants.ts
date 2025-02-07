@@ -2,9 +2,9 @@ import Cabinet from "@/public/carousel/cabinet.jpg"
 import Metal from "@/public/carousel/metal.jpg"
 import Painting from "@/public/carousel/painting.jpg"
 import Frame2 from "@/public/woodFrames/frame2.jpg"
-import Dogcage from "@/public/dogcage.jpg"
+import Dogcage from "@/public/metal/dogcage.jpg"
 import { Wrench, Settings, ShoppingBasket, Facebook } from "lucide-react"
-import { carouselProps, offersCardProps, servicesCardProps } from "./types"
+import { carouselProps, servicesCardProps } from "./types"
 
 // Datas
 export const navLinksHome = [
