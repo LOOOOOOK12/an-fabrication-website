@@ -36,3 +36,10 @@ export type navLinks = {
 export type Tshape = {
     className: string
 }
+
+export type TimageHoverProps = {
+    src: StaticImageData,
+    alt: string,
+    title?: string,
+    description?: string    
+}
