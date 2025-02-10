@@ -5,6 +5,9 @@ import Frame2 from "@/public/woodFrames/frame2.jpg"
 import Dogcage from "@/public/metal/dogcage.jpg"
 import { Wrench, Settings, ShoppingBasket, Facebook } from "lucide-react"
 import { carouselProps, servicesCardProps } from "./types"
+import Wood from "@/public/wood/wood.jpg"
+import Wood3 from "@/public/wood/wood3.jpg"
+import { title } from "process"
 
 // Datas
 export const navLinksHome = [
@@ -106,4 +109,59 @@ export const footerDataSocials = [
         socialsIcons: Facebook,
         href:"https://www.facebook.com/ANwoodandmetalFabrication"
     }
+]
+
+export const HomeAndOfficeImprovementData = [
+    {
+        image: Wood,
+        alt: "Bar top",
+        title: "Bar top",
+        description: "Bar top"
+    },
+    {
+        image: Wood3,
+        alt: "chairs",
+        description: "chairs"
+    },
+    {
+        image: Wood3,
+        alt: "chairs",
+        description: "chairs"
+    },
+    {
+        image: Wood3,
+        alt: "chairs",
+        description: "chairs"
+    },
+    {
+        image: Wood3,
+        alt: "chairs",
+        description: "chairs"
+    },
+    {
+        image: Wood,
+        alt: "Bar top",
+        title: "Bar top",
+        description: "Bar top"
+    },
+    {
+        image: Wood3,
+        alt: "chairs",
+        description: "chairs"
+    },
+    {
+        image: Wood3,
+        alt: "chairs",
+        description: "chairs"
+    },
+    {
+        image: Wood3,
+        alt: "chairs",
+        description: "chairs"
+    },
+    {
+        image: Wood3,
+        alt: "chairs",
+        description: "chairs"
+    },
 ]
