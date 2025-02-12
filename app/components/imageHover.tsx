@@ -7,13 +7,13 @@ function imageHover({src, alt, title, description}:TimageHoverProps) {
     return (
         <HoverCard>
             <HoverCardTrigger>
-                <Image src={src} alt={alt} className='w-full h-full rounded-lg'/>
+                <Image src={src} alt={alt} className='w-full h-full rounded-lg shadow-md'/>
             </HoverCardTrigger>
             <HoverCardContent
                 side='right'
                 className='flex flex-col items-center justify-center gap-2'>
                 <div>
-                    <Image src={src} alt={alt} className='h-full w-full rounded-md'/>
+                    <Image src={src} alt={alt} className='h-[350px] w-full rounded-md'/>
                 </div>
                 <div className='flex flex-col items-center gap-2'>
                     <h1 className='text-3xl'>{title}</h1>
