@@ -3,7 +3,7 @@ import { Tshape } from '../types/types'
 
 function shape({className}:Tshape) {
     return (
-        <div className={className}>
+        <div className={"absolute " + className}>
         </div>
     )
 }
