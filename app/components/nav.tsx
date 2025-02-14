@@ -19,7 +19,7 @@ function Nav({ links }: navLinks) {
         <motion.header 
             initial={{opacity: 0, y: -100 }}
             animate={{opacity: 1, y: 0 }}
-            transition={{ duration: .5, type:"spring", delay: .5 }}
+            transition={{ duration: 1.5, type:"spring", delay: 1 }}
             className='w-full fixed px-2 flex items-center justify-center top-2 z-50 bg-opacity-75'
         >
             <nav className='w-full md:w-[850px] bg-primary-700 flex items-center justify-between text-text-50 p-3 shadow-lg'>
