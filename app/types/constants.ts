@@ -71,6 +71,18 @@ export const navLinksGallery = [
         href:'#gallery'
     },
     {
+        name:'Home Improvement',
+        href: '#homeAndOfficeImprovement'
+    },
+    {
+        name:'Metal Works',
+        href: '#metalWorks'
+    },
+    {
+        name:'Wood Frames',
+        href: '#woodFrames'
+    },
+    {
         name:'Contact Us',
         href:'#contactus'
     },
