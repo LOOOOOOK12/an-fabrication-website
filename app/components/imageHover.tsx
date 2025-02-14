@@ -7,7 +7,7 @@ function imageHover({src, alt, title, description}:TimageHoverProps) {
     return (
         <HoverCard>
             <HoverCardTrigger>
-                <Image src={src} alt={alt} className='w-full h-full rounded-lg shadow-md'/>
+                <Image src={src} alt={alt} className='w-full h-[450px] rounded-lg shadow-md brightness-50 hover:brightness-75 duration-100'/>
             </HoverCardTrigger>
             <HoverCardContent
                 side='right'
