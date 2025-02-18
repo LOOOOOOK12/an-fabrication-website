@@ -165,77 +165,91 @@ export const WoodWorksData = [
     {
         image: Wood3,
         alt: "chairs",
-        description: "chairs"
+        title: "Chairs",
+        description: "Chairs made of Wood"
     },
     {
         image: Wood4,
-        alt: "chairs",
-        description: "chairs"
+        alt: "Sink Table",
+        title: "Sink table",
+        description: "Sink table made of wood"
     },
     {
         image: Wood5,
-        alt: "chairs",
-        description: "chairs"
+        alt: "Cabinets",
+        title: "Cabinets",
+        description: "Cabinets"
     },
     {
         image: Wood6,
         alt: "chairs",
-        description: "chairs"
+        title: "Wooden Shelfs",
+        description: "Wooden Shelfs"
     },
     {
         image: Wood7,
-        alt: "Bar top",
-        title: "Bar top",
-        description: "Bar top"
+        alt: "Wooden Shelfs 2",
+        title: "Wooden Shelfs",
+        description: "Wooden Shelfs"
     },
     {
         image: Wood8,
-        alt: "chairs",
-        description: "chairs"
+        alt: "Closets",
+        title: "Closets",
+        description: "Closets"
     },
     {
         image: Wood9,
-        alt: "chairs",
-        description: "chairs"
+        alt: "Television Platform",
+        title: "Television Platform",
+        description: "Television platforms with small cabinets and shelfs"
     },
     {
         image: Wood10,
         alt: "chairs",
+        title: "Bar top",
         description: "chairs"
     },
     {
         image: Wood11,
         alt: "chairs",
+        title: "Bar top",
         description: "chairs"
     },
     {
         image: Wood12,
         alt: "chairs",
+        title: "Bar top",
         description: "chairs"
     },
     {
         image: Wood13,
         alt: "chairs",
+        title: "Bar top",
         description: "chairs"
     },
     {
         image: Wood14,
         alt: "chairs",
+        title: "Bar top",
         description: "chairs"
     },
     {
         image: Wood15,
         alt: "chairs",
+        title: "Bar top",
         description: "chairs"
     },
     {
         image: Wood18,
         alt: "chairs",
+        title: "Bar top",
         description: "chairs"
     },
     {
         image: Wood19,
         alt: "chairs",
+        title: "Bar top",
         description: "chairs"
     },
 ]
@@ -249,9 +263,9 @@ export const MetalWorksData = [
     },
     {
         image: Metal1,
-        alt: "Dog Cage",
-        title: "Dog Cage",
-        description: "Dog Cage"
+        alt: "Shoe shelfs",
+        title: "Shoe shelfs",
+        description: "Shoe shelfs"
     },
     {
         image: Metal2,
@@ -267,21 +281,21 @@ export const MetalWorksData = [
     },  
     {
         image: Metal4,
-        alt: "Dog Cage",
-        title: "Dog Cage",
-        description: "Dog Cage"
+        alt: "Metal Bed Frames",
+        title: "Metal Bed Frames",
+        description: "Metal Bed Frames"
     },
     {
         image: Metal5,
-        alt: "Dog Cage",
-        title: "Dog Cage",
-        description: "Dog Cage"
+        alt: "Metal Bed Frames",
+        title: "Metal Bed Frames",
+        description: "Metal Bed Frames"
     },
     {
         image: Metal6,
-        alt: "Dog Cage",
-        title: "Dog Cage",
-        description: "Dog Cage"
+        alt: "Metal Bed Frames",
+        title: "Metal Bed Frames",
+        description: "Metal Bed Frames"
     },                   
 ]
 
