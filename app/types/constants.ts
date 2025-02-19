@@ -269,9 +269,9 @@ export const MetalWorksData = [
     },
     {
         image: Metal2,
-        alt: "Dog Cage",
-        title: "Dog Cage",
-        description: "Dog Cage"
+        alt: "Shoe Shelfs",
+        title: "Shoe Shelfs",
+        description: "Shoe Shelfs"
     },  
     {
         image: Metal3,
