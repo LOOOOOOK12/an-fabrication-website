@@ -1,6 +1,7 @@
 import React from 'react';
 import { WoodWorksData, MetalWorksData, WoodFramesData } from '@/app/types/constants';
 import ImageHover from '@/app/components/imageHover';
+import ImageDialog from '@/app/components/imageDialog';
 
 function GallerySection() {
     return (
@@ -9,7 +10,7 @@ function GallerySection() {
                 <h1 className="text-4xl md:text-5xl font-extrabold mb-6 mt-6 text-center">Home and Office Improvement</h1>
                 <div className="flex flex-wrap items-center justify-center gap-4">
                     {WoodWorksData.map((card, idx) => 
-                        <ImageHover
+                        <ImageDialog
                             key={idx}
                             src={card.image} 
                             alt={card.alt} 
