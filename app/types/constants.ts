@@ -67,8 +67,8 @@ export const navLinksHome = [
 
 export const navLinksGallery = [
     {
-        name:'Gallery',
-        href:'#gallery'
+        name:'Home',
+        href:'/'
     },
     {
         name:'Home Improvement',
