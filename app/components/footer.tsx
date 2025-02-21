@@ -3,7 +3,7 @@
 import React from 'react'
 import { footerDataSocials } from '../types/constants'
 import { Icon } from './offersCard'
-import { MapPin, PhoneCall } from 'lucide-react'
+import { MapPin, PhoneCall, Mail } from 'lucide-react'
 import { navLinks } from '../types/types'
 
 function footer({ links }:navLinks) {
@@ -24,7 +24,8 @@ function footer({ links }:navLinks) {
                         <span className='flex gap-2 items-center'><MapPin/> 152 Purok 2 Bogtong Legazpi City</span>
                     </div>
                     <h1 className='text-3xl font-semibold'>Contact us</h1>
-                    <span className='flex gap-2 items-center'><PhoneCall/>09982809283</span>
+                    <span className='flex gap-2 items-center'><PhoneCall/>0927 167 3957</span>
+                    <span className='flex gap-2 items-center'><Mail/>an.woodmetalfab@gmail.com</span>
                 </div>
                 <div className='flex flex-col gap-2'>
                     <h1 className='text-3xl font-semibold'>Check our Social Medias</h1>
