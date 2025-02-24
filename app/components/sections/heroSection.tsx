@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 import Image from 'next/image'  
-import Logo from "@/public/AN.jpg"
+import Logo from "@/public/logo.ico"
 
 function heroSection(){
     return (
