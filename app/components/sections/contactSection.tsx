@@ -2,8 +2,6 @@
 
 import React from 'react'
 import Shape from '../shape'
-// import { footerDataSocials } from '@/app/types/constants'
-// import { Icon } from '../offersCard'
 
 function contactSection() {
     return (
