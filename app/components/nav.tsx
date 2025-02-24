@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { navLinks } from '../types/types'
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '@/public/AN.jpg'
+import Logo from '@/public/logo.ico'
 import { Menu, X } from 'lucide-react'
 
 function Nav({ links }: navLinks) {
