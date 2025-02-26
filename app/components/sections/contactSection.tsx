@@ -10,7 +10,7 @@ function contactSection() {
                 className={"-z-40 top-12 left-12 -rotate-12 rounded-lg size-32 lg:size-56 bg-accent-500"}
             />
             <Shape
-                className={"-z-40 bottom-7 left-24 -rotate-45 rounded-lg size-32 lg:size-56 bg-secondary-200"}
+                className={"-z-40 bottom-14 left-24 -rotate-45 rounded-lg size-32 lg:size-56 bg-secondary-200"}
             />
             <Shape
                 className={"-z-40 right-12 bottom-20 rotate-12 rounded-lg size-32 lg:size-64 bg-primary"}
