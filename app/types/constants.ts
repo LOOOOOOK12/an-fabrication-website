@@ -71,21 +71,29 @@ export const navLinksGallery = [
         href:'/'
     },
     {
-        name:'Home Improvement',
-        href: '#homeAndOfficeImprovement'
+        name:'Cages and Fences',
+        href: '#cagesAndFences'
     },
     {
-        name:'Metal Works',
-        href: '#metalWorks'
+        name:'Picture Frames',
+        href: '#pictureFrames'
     },
     {
-        name:'Wood Frames',
-        href: '#woodFrames'
+        name:'Gates',
+        href: '#gates'
     },
     {
-        name:'Contact Us',
-        href:'#contactus'
+        name:'Cabinetry',
+        href:'#cabinetry'
     },
+    {
+        name:'Cages',
+        href:'#cages'
+    },
+    {
+        name:'Beds',
+        href:'#beds'
+    }
 ]
 
 export const offersData = [
@@ -121,37 +129,37 @@ export const ServicesCardData: servicesCardProps[] = [
         image: Dogcage,
         title: "Cages and Fences",
         alt: "Home and Office improvement",
-        href: "/gallery"
+        href: "/gallery#cagesAndFences"
     },
     {
         image: Frame1,
         alt: "Picture Frames",
         title: "Picture Frames",
-        href: "/gallery"
+        href: "/gallery#pictureFrames"
     },
     {
         image: Dogcage,
         alt: "Gates",
         title: "Gates",
-        href: "/gallery"
+        href: "/gallery#gates"
     },
     {
         image: Cabinet,
         alt: "Cabinetry",
         title: "Cabinetry",
-        href: "/gallery"
+        href: "/gallery#cabinetry"
     },
     {
         image: Frame2,
         alt: "Cages",
         title: "Cages",
-        href: "/gallery"
+        href: "/gallery#cages"
     },
     {
         image: Metal5,
         alt: "Beds",
         title: "Beds",
-        href: "/gallery"
+        href: "/gallery#beds"
     }
 ]
 
@@ -161,6 +169,158 @@ export const footerDataSocials = [
         href:"https://www.facebook.com/ANwoodandmetalFabrication"
     }
 ]
+
+export const CagesandFencesData = [
+    {
+        image: Dogcage,
+        alt: "Dog Cage",
+        title: "Dog cage",
+        description: "Doga cage reinforced with metal."
+    },
+]
+
+export const PictureFramesData = [
+    {
+        image: Frame,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Frame1,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Frame2,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Frame4,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Frame5,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Frame6,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Frame7,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Frame8,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+
+]
+
+export const GatesData = [
+    {
+
+    }
+]
+
+export const CabinetryData = [
+    {
+        image: Wood5,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Wood6,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Wood7,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Wood8,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Wood9,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Wood10,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Wood11,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Wood12,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Wood13,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Wood14,
+        alt: "Picture Frame",
+        title: "Picture Frame",
+        description: "Picture Frame that is made from wood."
+    },
+]
+
+export const BedsData = [
+    {
+        image: Metal4,
+        alt: "Bed Frames",
+        title: "Bed Frames",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Metal5,
+        alt: "Bed Frames",
+        title: "Bed Frames",
+        description: "Picture Frame that is made from wood."
+    },
+    {
+        image: Metal6,
+        alt: "Bed Frames",
+        title: "Bed Frames",
+        description: "Picture Frame that is made from wood."
+    },
+] 
+
 
 export const WoodWorksData = [
     {
