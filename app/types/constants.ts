@@ -91,19 +91,14 @@ export const navLinksGallery = [
 export const offersData = [
     {
         icon: Wrench,
-        title:"Custom Wood & Metal Fabrication",
-        description:"Bring your designs to life with custom furniture, gates, fences, and cabinetry."
+        title:"Custom Wood & Metal Crafting",
+        description:"Bring your designs to life with custom-built furniture, gates, fences, and cabinetry."
     },
     {
         icon: Settings,
         title:"Welding & Repairs",
         description:"Reliable metal repairs to restore strength and function."
     },
-    {
-        icon: ShoppingBasket,
-        title:"Bulk Orders",
-        description:"We offer special discounts for businesses. Large-scale projects can also enjoy exclusive savings."
-    }
 ]
 
 export const AboutCarouselData: carouselProps[] = [
@@ -123,27 +118,39 @@ export const AboutCarouselData: carouselProps[] = [
 
 export const ServicesCardData: servicesCardProps[] = [
     {
-        image: Cabinet,
-        title: "Home and Office improvement",
+        image: Dogcage,
+        title: "Cages and Fences",
         alt: "Home and Office improvement",
         href: "/gallery"
     },
     {
-        image: Metal,
-        alt: "Welding & Repairs",
-        title: "Custom Fabrication",
+        image: Frame1,
+        alt: "Picture Frames",
+        title: "Picture Frames",
         href: "/gallery"
     },
     {
         image: Dogcage,
+        alt: "Gates",
+        title: "Gates",
+        href: "/gallery"
+    },
+    {
+        image: Cabinet,
+        alt: "Cabinetry",
+        title: "Cabinetry",
+        href: "/gallery"
+    },
+    {
+        image: Frame2,
         alt: "Cages",
         title: "Cages",
         href: "/gallery"
     },
     {
-        image: Frame2,
-        alt: "Painting Frames",
-        title: "Painting Frames",
+        image: Metal5,
+        alt: "Beds",
+        title: "Beds",
         href: "/gallery"
     }
 ]
