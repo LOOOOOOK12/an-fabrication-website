@@ -21,7 +21,7 @@ export default {
 					'700': 'var(--text-700)',
 					'800': 'var(--text-800)',
 					'900': 'var(--text-900)',
-					'950': 'var(--text-950)'
+					'950': 'var(--text-950)',
 				},
 				background: 'hsl(var(--background))',
 				primary: {
