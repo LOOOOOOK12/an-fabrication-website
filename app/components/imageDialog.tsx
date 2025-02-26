@@ -17,9 +17,9 @@ function imageDialog({ src, alt, title, description}:TimageHoverProps) {
                 <Image src={src} alt={alt} className='w-full h-[400px] rounded-lg shadow-md brightness-50 hover:brightness-75 duration-100'/>
             </DialogTrigger>
             <DialogContent>
-                <DialogHeader className=' max-h-[400px] w-full'>
-                    <Image src={src} alt={alt} className='w-full h-full object-cover rounded-md'/>
+                <DialogHeader>
                 </DialogHeader>
+                <Image src={src} alt={alt} className='w-full h-[450px] object-cover rounded-md'/>
                 <DialogTitle className='text-4xl'>{title}</DialogTitle>
                 <DialogDescription className='text-2xl'>{description}</DialogDescription>
             </DialogContent>
