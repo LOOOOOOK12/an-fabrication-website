@@ -22,7 +22,7 @@ function Nav({ links }: navLinks) {
             transition={{ duration: 1.5, type:"spring", delay: 1 }}
             className='w-full fixed px-2 flex items-center justify-center top-2 z-50 bg-opacity-75'
         >
-            <nav className='w-full md:w-[850px] bg-background flex items-center justify-between p-2 shadow-2xl'>
+            <nav className='w-full md:w-[850px] bg-accent-50 flex items-center justify-between p-2 shadow-2xl'>
                 <Link className='cursor-default text-3xl font-semibold size-10' href={"/"}>
                     <Image src={Dark} alt="Logo" className='h-full w-full rounded-full'/>
                 </Link>
