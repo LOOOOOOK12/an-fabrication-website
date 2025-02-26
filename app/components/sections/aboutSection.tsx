@@ -10,7 +10,7 @@ import 'swiper/css';
 
 function aboutSection() {
     return (
-        <section className='relative flex item-center justify-center bg-slate-200 p-9' id='about'>
+        <section className='relative flex item-center justify-center bg-background p-9' id='about'>
             <div className='flex flex-col md:flex-row items-center justify-center gap-8 w-full max-w-[950px]'>
                 <Swiper
                     modules={[Autoplay, EffectFade]}
