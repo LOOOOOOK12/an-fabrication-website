@@ -8,7 +8,7 @@ import { navLinks } from '../types/types'
 
 function footer({ links }:navLinks) {
     return (
-        <footer className='w-full h-full flex flex-col items-center bg-primary-700 gap-8 text-white p-5'>
+        <footer className='w-full h-full flex flex-col items-center bg-primary gap-8 text-white p-5'>
             <div className='flex flex-col justify-center md:flex-row gap-14 md:gap-4 w-full md:justify-evenly'>
                 <div className='flex flex-col gap-2'>
                     <h1 className='text-3xl font-semibold'>Links</h1>
