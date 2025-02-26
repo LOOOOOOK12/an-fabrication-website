@@ -47,6 +47,20 @@ function GallerySection() {
                 )}
                 </div>
             </div>
+            <div>
+            <h1 className="text-4xl md:text-5xl font-extrabold mb-6 mt-6 text-center">Cabinetry</h1>
+                <div className="flex flex-wrap items-center justify-center gap-4">
+                {WoodFramesData.map((card, idx) =>
+                    <ImageDialog
+                        key={idx}
+                        src={card.image}
+                        alt={card.alt} 
+                        title={card.title || `Image ${idx + 1}`} 
+                        description={card.description}
+                    />
+                )}
+                </div>
+            </div>
         </section>
     );
 }
