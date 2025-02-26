@@ -2,7 +2,7 @@ import Cabinet from "@/public/carousel/cabinet.jpg"
 import Metal from "@/public/carousel/metal.jpg"
 import Painting from "@/public/carousel/painting.jpg"
 import Dogcage from "@/public/metal/dogcage.jpg"
-import { Wrench, Settings, ShoppingBasket, Facebook } from "lucide-react"
+import { Wrench, Settings, Facebook } from "lucide-react"
 import { carouselProps, servicesCardProps } from "./types"
 //Wood Works
 import Wood from "@/public/wood/wood.jpg"
