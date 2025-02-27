@@ -4,7 +4,7 @@ import ImageDialog from '@/app/components/imageDialog';
 
 function GallerySection() {
     return (
-        <section className="flex flex-col gap-12 items-center justify-center py-28 px-6" id="gallery">
+        <section className="flex flex-col gap-4 items-center justify-center py-28 px-6" id="gallery">
             <div className="w-full" id='cagesAndFences'>
                 <h1 className="text-4xl md:text-5xl font-extrabold mb-6 mt-6 text-center">Cages and Fences</h1>
                 <div className="flex flex-wrap items-center justify-center gap-4">
