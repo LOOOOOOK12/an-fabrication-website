@@ -18,7 +18,7 @@ function aboutSection() {
                     effect={'fade'}
                     loop={true}
                     autoplay={{
-                        delay: 2500,
+                        delay: 1500,
                         disableOnInteraction: false,
                     }}
                     className='w-full md:w-1/2 h-[350px] md:h-[450px] rounded-md'>
