@@ -16,7 +16,7 @@ function contactSection() {
                 className={"-z-40 right-12 bottom-20 rotate-12 rounded-lg size-32 lg:size-64 bg-primary"}
             />
             <Shape
-                className={"-z-40 top-8 right-32 -rotate-12 rounded-lg size-32 lg:size-44 bg-accent-600"}
+                className={"-z-40 top-8 right-20 -rotate-45 rounded-lg size-32 lg:size-44 bg-accent-600"}
             />
             <div className='flex flex-col gap-4 items-center justify-center'>
                 <h1 className='text-3xl md:text-6xl font-bold text-center'>Any Questions?</h1>
