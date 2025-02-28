@@ -93,6 +93,10 @@ export const navLinksGallery = [
     {
         name:'Beds',
         href:'#beds'
+    },
+    {
+        name:'Contact Us',
+        href:'#contactus'
     }
 ]
 
