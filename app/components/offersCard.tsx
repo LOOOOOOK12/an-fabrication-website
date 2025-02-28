@@ -8,7 +8,7 @@ export function Icon({ icon: Icon, size }:{ icon: React.FC<LucideProps>, size?: 
 
 function offersCard({icon, title, description}:offersCardProps) {
     return (
-        <div className='flex flex-col items-center justify-center p-8 bg-background rounded-lg max-w-[300px] h-[350px] shadow-md'>
+        <div className='flex flex-col items-center justify-center p-8 bg-background rounded-lg max-w-[300px] shadow-md'>
             <Icon icon={icon} size={50}/>
             <h1 className='text-2xl md:text-3xl my-4 font-extrabold text-center'>{title}</h1>
             <p className='text-lg text-text-400'>{description}</p>
