@@ -78,10 +78,10 @@ export const navLinksGallery = [
         name:'Picture Frames',
         href: '#pictureFrames'
     },
-    {
-        name:'Gates',
-        href: '#gates'
-    },
+    // {
+    //     name:'Gates',
+    //     href: '#gates'
+    // },
     {
         name:'Cabinetry',
         href:'#cabinetry'
